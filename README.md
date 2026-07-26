@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Deadlock Detection & Prevention Lab Framework
 
 A comprehensive, interactive simulation framework modeling an Operating System's resource allocation environment. The platform features dynamic visual graph rendering, multi-instance resource slots, state audit timelines, safety checks using the **Banker's Algorithm**, and active **Deadlock Prevention** modules.
@@ -163,3 +164,6 @@ Use the following step-by-step scenarios to evaluate the correctness of the fram
    - A floating warning alert flashes at the bottom-right: **Deadlock Prevented - Request would create a cycle: P2 → R1 → P1 → R2 → P2. Allocation rejected.**
    - The edge is NOT created, preventing the system from entering a deadlocked state.
    - The sound engine triggers an error alert buzzer.
+=======
+# Deadlock-Detection-and-Prevention-using-RAG-
+>>>>>>> 3cdc9caae17e88ad881b82726e549b5ef3cc030b

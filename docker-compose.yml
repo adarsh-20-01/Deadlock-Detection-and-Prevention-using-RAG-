@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  deadlock-framework:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: deadlock_detection_framework
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - NODE_ENV=production
+    restart: unless-stopped
